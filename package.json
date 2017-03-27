@@ -1,0 +1,26 @@
+{
+  "name": "bellopapoy.github.io",
+  "version": "1.0.0",
+  "description": "personal portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bellopapoy/bellopapoy.github.io.git"
+  },
+  "author": "Irene Hontanosas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bellopapoy/bellopapoy.github.io/issues"
+  },
+  "homepage": "https://github.com/bellopapoy/bellopapoy.github.io#readme",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "webpack": "^2.3.2"
+  }
+}
