@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Futura';
+    src: url('fonts/Futura.ttc');
+}
+
+@font-face {
+    font-family: 'OpenSansLight';
+    src: url('fonts/OpenSans-Light.ttf');
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0 ;
+}
+
+html {
+	text-align: center;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+body {
+	font-family: "OpenSansLight";
+	background-size: 120%;
+	padding-top: 15%;
+	box-sizing: border-box;
+	background-repeat: no-repeat;
+	background-image: -webkit-linear-gradient(top right, #7CA1EA 0%, #328DFF 16%, #327AF2 39%, #3F49CF 66%, #4D21B7 100%);
+	background-image: -o-linear-gradient(top right, #7CA1EA 0%, #328DFF 16%, #327AF2 39%, #3F49CF 66%, #4D21B7 100%);
+	background-image: linear-gradient(top bottom left, #7CA1EA 0%, #328DFF 16%, #327AF2 39%, #3F49CF 66%, #4D21B7 100%);
+
+}
+h1 {
+	font-weight: normal;
+	margin: 2% auto 2%;
+	font-size: 144px;
+	line-height: 1;
+	font-family: "Futura";
+}
+p {
+	margin: 0;
+	font-size: 24px;
+	line-height: 1;
+}
+h1, p {
+	color: white;
+}
