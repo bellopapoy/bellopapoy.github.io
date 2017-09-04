@@ -327,6 +327,20 @@ footer li a {
 		width: 100%;
 		text-align: center;
 	}
+
+	.history .box-title {
+		margin: 12% auto 0;
+	}
+
+	.box-title {
+		width: 52%;
+		float: none;
+	}
+
+	.history-list {
+		width: 100%;
+		text-align: center;
+	}
 }
 
 @media (min-width: 992px) {
@@ -336,5 +350,19 @@ footer li a {
 
 	.bio .righht {
 		width: 48%;
+	}
+
+	.history .box-title {
+		margin: 12% 0 0;
+	}
+
+	.box-title {
+		width: 40%;
+		float: left;
+	}
+
+	.history-list {
+		width: 55%;
+		text-align: left;
 	}
 }
