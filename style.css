@@ -226,6 +226,8 @@ img.gray {
 
 .bio .righht {
 	text-align: left;
+
+	transition:  text-align 0.3s ease-in-out;
 }
 
 .bio .img-wrapper {
@@ -298,12 +300,14 @@ footer .mail {
 	color: #3F3C3C;
 	padding: 0 10px;
 	font: 36px "BodoniBold";
-	background-color: transparent;
+
 }
 
 footer .mail:hover {
 	text-decoration: none;
 	background-color: #5bf12b;
+
+	transition: background-color 0s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.3s;
 }
 
 footer li {
@@ -315,3 +319,22 @@ footer li a {
 	color: #333333;
 }
 
+@media (min-width: 320px) {
+	.bio .lefft {
+		display: none;
+	}	
+	.bio .righht {
+		width: 100%;
+		text-align: center;
+	}
+}
+
+@media (min-width: 992px) {
+	.bio .lefft {
+		display: block;
+	}
+
+	.bio .righht {
+		width: 48%;
+	}
+}
